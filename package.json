@@ -1,0 +1,36 @@
+{
+  "name": "@asayukiii/fs-music",
+  "version": "1.1.1",
+  "description": "A powerful extension to play music on your ForgeScript Discord client.",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "meta": "node ./dist/docgen.js",
+    "doc": "typedoc --tsconfig ./tsconfig.json"
+  },
+  "keywords": [
+    "music",
+    "forgescript",
+    "forge.music",
+    "discord music",
+    "music bot",
+    "bdfd music",
+    "aoi.js music",
+    "aoi.music"
+  ],
+  "author": "Asayukiii",
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "@tryforge/forgescript": "^1.4.0",
+    "@types/node": "^22.0.0",
+    "discord.js": "^14.15.3",
+    "typedoc": "^0.26.5",
+    "typedoc-plugin-markdown": "^4.2.3",
+    "typescript": "^5.5.4"
+  },
+  "dependencies": {
+    "@aoijs/aoi.music": "^1.2.1",
+    "ffmpeg-static": "^5.2.0",
+    "opusscript": "^0.1.1"
+  }
+}

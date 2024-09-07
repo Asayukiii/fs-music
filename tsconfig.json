@@ -1,0 +1,42 @@
+{
+    "compilerOptions": {
+        "declaration": true,
+        "esModuleInterop": true,
+        "forceConsistentCasingInFileNames": true,
+        "incremental": true,
+        "module": "CommonJS",
+        "outDir": "./dist",
+        "rootDir": "./src",
+        "skipDefaultLibCheck": true,
+        "skipLibCheck": true,
+        "target": "ES2020",
+        "strict": true,
+        "tsBuildInfoFile": "./__cache__/.tsbuildinfo",
+        "paths": {
+            "index": ["./src/index.ts", "./dist/index.js"]
+        },
+        "strictNullChecks": false,
+        "types": []
+    },
+    "include": [
+        "./src/**/*.ts"
+    ],
+    "exclude": [
+        "./node_modules",
+        "./dist",
+        "./__test__"
+    ],
+    "typedocOptions": {
+        "entryPoints": [
+            "./src/index.ts"
+        ],
+        "out": "docs",
+        "name": "Erisa Voice",
+        "includeVersion": true,
+        "plugin": [
+            "typedoc-plugin-markdown"
+        ],
+        "theme": "default",
+        "readme": "README.md"
+    }
+}
