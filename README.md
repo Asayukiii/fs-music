@@ -22,7 +22,7 @@ npm i erisa-music
 ```
 2. Now, declare the extension in your main file:
 ```js
-var { Cacher, ErisaVoice, Filter, PluginName } = require("erisa-music");
+var { Cacher, ErisaVoice, Filter, PluginName } = require("@asayukiii/fs-music");
 var { ForgeClient } = require("@tryforge/forgescript");
 
 var voice = new ErisaVoice({
